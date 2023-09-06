@@ -32,6 +32,41 @@ forward(100)
 right(90)
 forward(100)
 right(90)
+
+
+#Farben und Formen
+shape("turtle")
+shape("arrow")
+shape("circle")
+shape("classic")
+shape("triangle")
+
+#keine Form
+hideturtle()
+
+#eigene Form
+register_shape("name_of_shape", ((0,10), (5,0). (15,0), (20,10)))
+shape("name_of_shape")
+
+#farbe ändern
+pencolor("green")
+#oder yellow, red, blue, orange
+
+#hintergrundfarbe ändern
+bgcolor("red")
+#oder siehe oben 
+
+#Flächen einfärben
+begin_fill()
+end_fill()
+
+#bsp mit füllung :
+from turtle import*
+fillcolor(red)
+begin_fill()
 forward(100)
 right(90)
 forward(100)
+end_fil()
+
+
