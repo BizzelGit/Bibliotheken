@@ -1,2 +1,37 @@
 from turtle import *
 #from <bibliotheksname> import <funktionsname>
+#turtle umgebung ist ein viereck das 200 x 200 ist
+
+#startposition des turtle ist mit dem Gesicht nach Rechts >
+
+forward(100)
+#turtle kann 100 schritte nach vorne laufen
+
+right(90)
+#turtle dreht sich nach rechts 90 Grad
+
+goto(150, 200)
+#turtle geht an die exakte Position
+
+penup()
+#stift hochheben um mit Goto zu springen und keine Linie zu machen
+pendown()
+#stift wieder absetzen um die Linie fortzusetzen.
+
+#z.B.:
+from turtle import*
+penup()
+goto(0, -100)
+pendown()
+forward(100)
+
+#kann man z.b. auch zum malen benutzen
+#Quadrat z.B.
+from turtle import*
+forward(100)
+right(90)
+forward(100)
+right(90)
+forward(100)
+right(90)
+forward(100)
